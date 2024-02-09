@@ -1,11 +1,14 @@
-import { useLoaderData } from "react-router-dom";
-
+import { Link, useLoaderData } from "react-router-dom";
+import { FaCircleArrowLeft } from "react-icons/fa6";
 const DetailedCard = () => {
   const user = useLoaderData();
 
   return (
-    <div className="w-full flex justify-center items-center h-screen p-10">
-      <div className="w-full rounded-lg md:p-6 p-1  flex justify-center items-center  md:flex-row md:space-x-10 space-x-0 flex-col space-y-10 md:space-y-0">
+    <div className="w-full flex justify-center items-center h-screen p-10 ">
+      <div className="w-[60rem] rounded-lg md:p-6 p-1  flex justify-center items-center  md:flex-row md:space-x-10 space-x-0 flex-col space-y-10 md:space-y-0 relative">
+        <Link to={"/"} className="absolute inset-0 text-white text-4xl">
+          <FaCircleArrowLeft />
+        </Link>
         <div className=" flex justify-center items-center">
           {/* Image */}
           <img
