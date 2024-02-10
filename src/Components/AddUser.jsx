@@ -39,7 +39,7 @@ const AddUser = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8 rounded-lg overflow-hidden  p-6 ">
+    <div className="container mx-auto px-4 py-8 rounded-lg overflow-hidden  p-6 ">
       <h2 className="text-4xl font-semibold mb-4  gradient-text2">
         Add User Details
       </h2>
@@ -129,7 +129,7 @@ const AddUser = () => {
             Address
           </label>
           <textarea
-            className="shadow appearance-none bg_glass border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow h-28 appearance-none bg_glass border rounded w-full py-2 px-3 text-gray-300 leading-tight focus:outline-none focus:shadow-outline"
             id="address"
             type="text"
             placeholder="Street, Suite, City"
