@@ -10,7 +10,7 @@ const SingleCard = ({ user }) => {
           <img
             src={user?.image}
             alt={`${user?.firstName} ${user?.lastName}`}
-            className="w-28 h-28 grayscale hover:grayscale-0 transition-all ease-in-out duration-300"
+            className="w-28 h-28 md:grayscale grayscale-0 hover:grayscale-0 transition-all ease-in-out duration-300"
           />
         </div>
 
